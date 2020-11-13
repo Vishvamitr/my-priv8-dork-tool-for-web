@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Priv8 Admin Finder"
+printf "Enter site Name For Find Admin Panel :-- $find"
+read find
+echo "site:$find login"
+echo "site:$find admin"
+echo "site:$find inurl:admin"
+echo "site:$find inurl:login"
+echo "site:$find intitle:admin"
+echo "site:$find intitle:login"
+echo "site:$find index of admin"
+echo "site:$find index of login"
+echo "site:$find sitemap.xml"
+echo "site:$find inurl:/admin/login.php"
+echo "site:www.$find/'&'file=index.php"
+echo "site:www.$find/'&'file=login.php"
+echo "site:$find -inurl:www"
