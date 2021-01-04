@@ -24,3 +24,7 @@ echo "site:$find filetype:xlsx"
 echo "site:$find filetype:txt"
 echo "site:$find robots.txt"
 echo "site:$find filetype:XML"
+#!for WordPress sites
+echo "site:$find wp-login.php?action=register"
+echo "site:$find wp-login.php?action=lostpassword"
+echo "site:$find /wp-json/wp/V2/users"
